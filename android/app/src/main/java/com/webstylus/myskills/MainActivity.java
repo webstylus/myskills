@@ -1,4 +1,4 @@
-package com.myskills;
+package com.webstylus.myskills;
 
 import com.facebook.react.ReactActivity;
 import org.devio.rn.splashscreen.SplashScreen;
@@ -17,6 +17,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "myskills";
+    return "MySkills";
   }
 }
