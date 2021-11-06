@@ -11,9 +11,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		63F6F2E8B14618095A2A0695 /* libPods-myskills.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 743A4CAD12A934EB100B9169 /* libPods-myskills.a */; };
+		563FD0C4E7449995D5E77CF5 /* libPods-myskills.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E678EB9A242247AD8985D1 /* libPods-myskills.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		986B988E26A5BAD96ED65C0F /* libPods-myskills-myskillsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C37B97E6369243EA5064061 /* libPods-myskills-myskillsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +35,10 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = myskills/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = myskills/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = myskills/main.m; sourceTree = "<group>"; };
-		1C37B97E6369243EA5064061 /* libPods-myskills-myskillsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myskills-myskillsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B93F5A9DDA71EE421D729EE /* Pods-myskills.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills.release.xcconfig"; path = "Target Support Files/Pods-myskills/Pods-myskills.release.xcconfig"; sourceTree = "<group>"; };
-		5976BEE116C120FC9555A32D /* Pods-myskills.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills.debug.xcconfig"; path = "Target Support Files/Pods-myskills/Pods-myskills.debug.xcconfig"; sourceTree = "<group>"; };
-		6AEECF127405898463EF3B58 /* Pods-myskills-myskillsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills-myskillsTests.debug.xcconfig"; path = "Target Support Files/Pods-myskills-myskillsTests/Pods-myskills-myskillsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		743A4CAD12A934EB100B9169 /* libPods-myskills.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myskills.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C876D604434948FFECABCC /* Pods-myskills.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills.release.xcconfig"; path = "Target Support Files/Pods-myskills/Pods-myskills.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = myskills/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BE65C162EDC68446CA3D1245 /* Pods-myskills-myskillsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills-myskillsTests.release.xcconfig"; path = "Target Support Files/Pods-myskills-myskillsTests/Pods-myskills-myskillsTests.release.xcconfig"; sourceTree = "<group>"; };
+		86E678EB9A242247AD8985D1 /* libPods-myskills.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myskills.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B09994884F8C7DA7075758 /* Pods-myskills.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills.debug.xcconfig"; path = "Target Support Files/Pods-myskills/Pods-myskills.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986B988E26A5BAD96ED65C0F /* libPods-myskills-myskillsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63F6F2E8B14618095A2A0695 /* libPods-myskills.a in Frameworks */,
+				563FD0C4E7449995D5E77CF5 /* libPods-myskills.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				743A4CAD12A934EB100B9169 /* libPods-myskills.a */,
-				1C37B97E6369243EA5064061 /* libPods-myskills-myskillsTests.a */,
+				86E678EB9A242247AD8985D1 /* libPods-myskills.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,7 +115,7 @@
 				00E356EF1AD99517003FC87E /* myskillsTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				CA8C066A1C8AD5AC8192A6C1 /* Pods */,
+				AEF6078C911CB48957D5CDF5 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,15 +131,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA8C066A1C8AD5AC8192A6C1 /* Pods */ = {
+		AEF6078C911CB48957D5CDF5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5976BEE116C120FC9555A32D /* Pods-myskills.debug.xcconfig */,
-				3B93F5A9DDA71EE421D729EE /* Pods-myskills.release.xcconfig */,
-				6AEECF127405898463EF3B58 /* Pods-myskills-myskillsTests.debug.xcconfig */,
-				BE65C162EDC68446CA3D1245 /* Pods-myskills-myskillsTests.release.xcconfig */,
+				90B09994884F8C7DA7075758 /* Pods-myskills.debug.xcconfig */,
+				13C876D604434948FFECABCC /* Pods-myskills.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,12 +147,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "myskillsTests" */;
 			buildPhases = (
-				CE3B36B4EC7F2C5C62516084 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C871824525F6A4A286F2AF16 /* [CP] Embed Pods Frameworks */,
-				0B391D9FD3B30E1AD1926945 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +165,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "myskills" */;
 			buildPhases = (
-				B807F9FE30420254B59B72CD /* [CP] Check Pods Manifest.lock */,
+				DAEE1B51B12766C3BDCA87D3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				B76B827E9396C283177E0BC9 /* [CP] Embed Pods Frameworks */,
-				26D783DCA3F6E16610B06465 /* [CP] Copy Pods Resources */,
+				A6C96F601F2A0F110E3571E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,24 +252,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0B391D9FD3B30E1AD1926945 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-myskills-myskillsTests/Pods-myskills-myskillsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-myskills-myskillsTests/Pods-myskills-myskillsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myskills-myskillsTests/Pods-myskills-myskillsTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		26D783DCA3F6E16610B06465 /* [CP] Copy Pods Resources */ = {
+		A6C96F601F2A0F110E3571E3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,24 +269,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myskills/Pods-myskills-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B76B827E9396C283177E0BC9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-myskills/Pods-myskills-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-myskills/Pods-myskills-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myskills/Pods-myskills-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B807F9FE30420254B59B72CD /* [CP] Check Pods Manifest.lock */ = {
+		DAEE1B51B12766C3BDCA87D3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -332,45 +285,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-myskills-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C871824525F6A4A286F2AF16 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-myskills-myskillsTests/Pods-myskills-myskillsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-myskills-myskillsTests/Pods-myskills-myskillsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myskills-myskillsTests/Pods-myskills-myskillsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CE3B36B4EC7F2C5C62516084 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-myskills-myskillsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -429,9 +343,10 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AEECF127405898463EF3B58 /* Pods-myskills-myskillsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = W94NCCQWJ9;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -456,10 +371,11 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE65C162EDC68446CA3D1245 /* Pods-myskills-myskillsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = W94NCCQWJ9;
 				INFOPLIST_FILE = myskillsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,24 +396,29 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5976BEE116C120FC9555A32D /* Pods-myskills.debug.xcconfig */;
+			baseConfigurationReference = 90B09994884F8C7DA7075758 /* Pods-myskills.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W94NCCQWJ9;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = myskills/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webstylus.myskills;
 				PRODUCT_NAME = myskills;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,23 +427,28 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B93F5A9DDA71EE421D729EE /* Pods-myskills.release.xcconfig */;
+			baseConfigurationReference = 13C876D604434948FFECABCC /* Pods-myskills.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W94NCCQWJ9;
 				INFOPLIST_FILE = myskills/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webstylus.myskills;
 				PRODUCT_NAME = myskills;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

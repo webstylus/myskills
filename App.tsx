@@ -9,7 +9,7 @@ export default function App() {
   }, [])
 
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#121015' }}>
       <StatusBar barStyle={'light-content'} />
       <Home />
     </SafeAreaView>
