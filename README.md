@@ -12,4 +12,5 @@ Features
 - Listagem de skills adicionadas
 - Saudacão de acordo com o horário do dia.
 
-
+####Verison
+[![Build status](https://build.appcenter.ms/v0.1/apps/63b6b01c-b0dd-4200-9181-de03ae00b2e0/branches/main/badge)](https://appcenter.ms)
