@@ -1,10 +1,16 @@
 import React, { useEffect } from 'react'
+import codePush from 'react-native-code-push'
 import { SafeAreaView, StatusBar } from 'react-native'
 import { Home } from './src/pages/Home'
 import SplashScreen from 'react-native-splash-screen'
 
-export default function App() {
+
+function App() {
   useEffect(() => {
+    codePush.sync({
+      installMode: codePush.InstallMode.IMMEDIATE
+    });
+
     SplashScreen.hide()
   }, [])
 
@@ -15,3 +21,7 @@ export default function App() {
     </SafeAreaView>
   )
 }
+
+export default codePush({
+  checkFrequency: codePush.CheckFrequency.ON_APP_RESUME
+})(App)

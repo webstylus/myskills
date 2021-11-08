@@ -71,7 +71,9 @@ export function Home() {
           activeOpacity={0.7}
         />
 
-        <Text style={[styles.title, { marginVertical: 30 }]}>My Skills</Text>
+        <Text style={[styles.title, { marginVertical: 30 }]}>
+          My Skills - Code Push Update
+        </Text>
       </View>
 
       {mySkills && (
