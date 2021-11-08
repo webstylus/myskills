@@ -11,8 +11,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		563FD0C4E7449995D5E77CF5 /* libPods-myskills.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E678EB9A242247AD8985D1 /* libPods-myskills.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		DA64E716BA07C49769226F50 /* libPods-myskills.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 161A2F651B4C3FC80A74DDA1 /* libPods-myskills.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +35,11 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = myskills/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = myskills/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = myskills/main.m; sourceTree = "<group>"; };
-		13C876D604434948FFECABCC /* Pods-myskills.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills.release.xcconfig"; path = "Target Support Files/Pods-myskills/Pods-myskills.release.xcconfig"; sourceTree = "<group>"; };
+		161A2F651B4C3FC80A74DDA1 /* libPods-myskills.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myskills.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EACC75D008451A5F91FF5DE /* Pods-myskills.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills.staging.xcconfig"; path = "Target Support Files/Pods-myskills/Pods-myskills.staging.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = myskills/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86E678EB9A242247AD8985D1 /* libPods-myskills.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myskills.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90B09994884F8C7DA7075758 /* Pods-myskills.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills.debug.xcconfig"; path = "Target Support Files/Pods-myskills/Pods-myskills.debug.xcconfig"; sourceTree = "<group>"; };
-		B44704454F2AA7C5027DDFDD /* Pods-myskills.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills.staging.xcconfig"; path = "Target Support Files/Pods-myskills/Pods-myskills.staging.xcconfig"; sourceTree = "<group>"; };
+		BE7AE33D8B242E751C5F5BC9 /* Pods-myskills.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills.debug.xcconfig"; path = "Target Support Files/Pods-myskills/Pods-myskills.debug.xcconfig"; sourceTree = "<group>"; };
+		EA68C76250617BC48371D314 /* Pods-myskills.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myskills.release.xcconfig"; path = "Target Support Files/Pods-myskills/Pods-myskills.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563FD0C4E7449995D5E77CF5 /* libPods-myskills.a in Frameworks */,
+				DA64E716BA07C49769226F50 /* libPods-myskills.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				86E678EB9A242247AD8985D1 /* libPods-myskills.a */,
+				161A2F651B4C3FC80A74DDA1 /* libPods-myskills.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 		AEF6078C911CB48957D5CDF5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				90B09994884F8C7DA7075758 /* Pods-myskills.debug.xcconfig */,
-				13C876D604434948FFECABCC /* Pods-myskills.release.xcconfig */,
-				B44704454F2AA7C5027DDFDD /* Pods-myskills.staging.xcconfig */,
+				BE7AE33D8B242E751C5F5BC9 /* Pods-myskills.debug.xcconfig */,
+				EA68C76250617BC48371D314 /* Pods-myskills.release.xcconfig */,
+				2EACC75D008451A5F91FF5DE /* Pods-myskills.staging.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -167,13 +167,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "myskills" */;
 			buildPhases = (
-				DAEE1B51B12766C3BDCA87D3 /* [CP] Check Pods Manifest.lock */,
+				DF837E1F06DF153EF07D27D6 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				A6C96F601F2A0F110E3571E3 /* [CP] Copy Pods Resources */,
+				918023BA55DAFA24BC948C1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,7 +190,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -254,7 +254,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		A6C96F601F2A0F110E3571E3 /* [CP] Copy Pods Resources */ = {
+		918023BA55DAFA24BC948C1C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,7 +271,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myskills/Pods-myskills-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DAEE1B51B12766C3BDCA87D3 /* [CP] Check Pods Manifest.lock */ = {
+		DF837E1F06DF153EF07D27D6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,7 +354,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = myskillsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +379,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = W94NCCQWJ9;
 				INFOPLIST_FILE = myskillsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,7 +398,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90B09994884F8C7DA7075758 /* Pods-myskills.debug.xcconfig */;
+			baseConfigurationReference = BE7AE33D8B242E751C5F5BC9 /* Pods-myskills.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -429,7 +429,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13C876D604434948FFECABCC /* Pods-myskills.release.xcconfig */;
+			baseConfigurationReference = EA68C76250617BC48371D314 /* Pods-myskills.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -566,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -626,7 +626,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -645,7 +645,7 @@
 		};
 		EA6EB7052738C0A5002DE3B7 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B44704454F2AA7C5027DDFDD /* Pods-myskills.staging.xcconfig */;
+			baseConfigurationReference = 2EACC75D008451A5F91FF5DE /* Pods-myskills.staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -680,7 +680,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = W94NCCQWJ9;
 				INFOPLIST_FILE = myskillsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
